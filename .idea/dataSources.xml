@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="2431589787">
+  <component name="DataSourceManagerImpl" format="xml" hash="1031476107">
     <data-source source="LOCAL" name="hibernate.cfg.xml" uuid="7aa139c6-386c-4418-b25a-735f29e4b270">
       <driver-ref>mysql</driver-ref>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
@@ -20,6 +20,19 @@
           <url>file://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.31/mysql-connector-java-5.1.31.jar</url>
         </library>
       </libraries>
+    </data-source>
+    <data-source source="LOCAL" name="MySQL - @eu-cdbr-west-01.cleardb.com/heroku_6e26485e288d714" uuid="c49e2b6d-2700-4fa5-9826-0cf930273643">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://eu-cdbr-west-01.cleardb.com/heroku_6e26485e288d714</jdbc-url>
+      <user-name>b07e5a872f8c1a</user-name>
+      <user-password>df92dfcedf9bdfc9dfccdf98df93df9a</user-password>
+      <driver-properties>
+        <property name="zeroDateTimeBehavior" value="convertToNull" />
+        <property name="tinyInt1isBit" value="false" />
+      </driver-properties>
+      <libraries />
     </data-source>
   </component>
 </project>

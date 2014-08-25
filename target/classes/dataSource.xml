@@ -8,11 +8,11 @@
  http://www.springframework.org/schema/tx/spring-tx-3.1.xsd http://www.springframework.org/schema/jdbc http://www.springframework.org/schema/jdbc/spring-jdbc.xsd">
 
 
-    <bean id="dataSource" class="org.apache.tomcat.dbcp.dbcp.BasicDataSource" destroy-method="close">
+    <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource" >
         <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
-        <property name="url" value="jdbc:mysql://csgo-bets-stat-db.ctrqkhj4phag.us-west-2.rds.amazonaws.com:3306/db"/>
-        <property name="username" value="father1337"/>
-        <property name="password" value="qwerty123"/>
+        <property name="url" value="jdbc:mysql://eu-cdbr-west-01.cleardb.com/heroku_6e26485e288d714"/>
+        <property name="username" value="b07e5a872f8c1a"/>
+        <property name="password" value="8d1cf290"/>
     </bean>
 
     <bean id="sessionFactory" class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
@@ -21,11 +21,6 @@
             <list>
                 <value>com.lounge.stat.model</value>
             </list>
-        </property>
-        <property name="hibernateProperties">
-            <props>
-                <prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop>
-            </props>
         </property>
     </bean>
 

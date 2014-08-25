@@ -12,6 +12,7 @@ public class TeamEntity {
     private String name;
     private int matches;
     private int wins;
+    private String image;
 
     @Id
     @Column(name = "id")
@@ -60,6 +61,16 @@ public class TeamEntity {
 
     public void incrementWins() {
         wins++;
+    }
+
+    @Basic
+    @Column(name = "Image")
+    public String getImage() {
+        return image;
+    }
+
+    public void setImage(String name) {
+        this.image = name;
     }
 
     @Override

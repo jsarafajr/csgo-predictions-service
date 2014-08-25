@@ -38,4 +38,9 @@ public class TeamDao extends GenericDao<TeamEntity> {
         return criteria.list();
     }
 
+    public List<TeamEntity> getAllNotOrder() {
+        Session session = getSession();
+        Criteria criteria = session.createCriteria(TeamEntity.class);
+        return criteria.list();
+    }
 }

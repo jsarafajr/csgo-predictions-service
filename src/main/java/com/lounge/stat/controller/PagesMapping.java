@@ -18,8 +18,13 @@ public class PagesMapping {
         return new ModelAndView("index");
     }
 
-    @RequestMapping(value = "add_match", method = GET)
+    @RequestMapping(value = "/add_match", method = GET)
     public ModelAndView addMatchPage() {
         return new ModelAndView("add_match");
+    }
+
+    @RequestMapping(value = "/all_teams", method = GET)
+    public ModelAndView allTeamsPage() {
+        return new ModelAndView("all_teams");
     }
 }

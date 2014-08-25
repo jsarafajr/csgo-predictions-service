@@ -16,6 +16,7 @@
       <mapping class="com.lounge.stat.model.MatchEntity"/>
       <mapping class="com.lounge.stat.model.TeamEntity"/>
       <mapping class="com.lounge.stat.model.StatisticEntity"/>
+      <mapping class="com.lounge.stat.model.PredictionEntity"/>
       <!-- DB schema will be updated if needed -->
     <!-- <property name="hbm2ddl.auto">update</property> -->
   </session-factory>

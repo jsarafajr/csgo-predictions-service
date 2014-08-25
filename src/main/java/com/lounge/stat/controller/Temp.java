@@ -24,11 +24,7 @@ public class Temp {
     private TeamDao dao;
 
     @RequestMapping(value = "test", method = GET, produces = "application/json")
-    public @ResponseBody ArrayList<String> tmp() {
-        ArrayList<String> arr = new ArrayList<>();
-        arr.add("lol");
-        arr.add("fuck");
-
-        return arr;
+    public @ResponseBody java.util.List<TeamEntity> tmp() {
+        return dao.getAll();
     }
 }

@@ -30,7 +30,6 @@ public class MatchDao extends GenericDao<MatchEntity> {
         query.setParameter("score1", match.getScore1());
         query.setParameter("score2", match.getScore2());
 
-
         return (MatchEntity) query.uniqueResult();
     }
 
@@ -71,7 +70,7 @@ public class MatchDao extends GenericDao<MatchEntity> {
         return query.list();
     }
 
-    public List<MatchEntity> getTeamMathces(TeamEntity team) {
+    public List<MatchEntity> getTeamMatches(TeamEntity team) {
         return getTeamMatches(team, -1);
     }
 }

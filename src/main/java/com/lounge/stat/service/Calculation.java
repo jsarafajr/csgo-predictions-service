@@ -1,5 +1,6 @@
 package com.lounge.stat.service;
 
+import com.lounge.stat.dto.CalcResult;
 import com.lounge.stat.repository.MatchDao;
 import com.lounge.stat.model.MatchEntity;
 import com.lounge.stat.model.TeamEntity;
@@ -17,7 +18,7 @@ public class Calculation {
     @Autowired
     private MatchDao matchDao;
 
-    public int[] getTotalCoef(TeamEntity team1, TeamEntity team2) {
+    public CalcResult getResult(TeamEntity team1, TeamEntity team2) {
         double team1WinLoseCoeff = getWinLoseCoeff(team1);
         double team2WinLoseCoeff = getWinLoseCoeff(team2);
         double team1LastMatchesCoeff = getLastMatchesCoef(team1, 10);
@@ -28,12 +29,18 @@ public class Calculation {
         double team1Total = team1WinLoseCoeff * 0.3 + team1LastMatchesCoeff * 0.3 + team1vsTeam2LastMatchesCoeff * 0.4;
         double team2Total = team2WinLoseCoeff * 0.3 + team2LastMatchesCoeff * 0.3 + team2vsTeam1LastMatchesCoeff * 0.4;
 
-        int[] res = new int[2];
+        CalcResult res = new CalcResult();
+
+        res.setTeam1WinCoef((int) (team1WinLoseCoeff * 100));
+        res.setTeam2WinCoef((int) (team2WinLoseCoeff * 100));
+
+        res.setTeam1LatestWins(getLastWinsCount(team1, 10));
+        res.setTeam2LatestWins(getLastWinsCount(team2, 10));
 
         double k = 1f / (team1Total + team2Total);
 
-        res[0] = (int) (100 * team1Total * k);
-        res[1] = 100 - res[0];
+        res.setTeam1Total((int) (100 * team1Total * k));
+        res.setTeam2Total(100 - res.getTeam1Total());
 
         return res;
     }
@@ -54,8 +61,13 @@ public class Calculation {
         List<MatchEntity> lastMatches = matchDao.getTeamsVersusMatches(team1, team2, count);
         int team1WinsCount = getWinsCount(lastMatches, team1);
 
-        if (lastMatches.size() == 0) return 0;
+        if (lastMatches.size() == 0) return 0.5;
         return (double) team1WinsCount / lastMatches.size();
+    }
+
+    private int getLastWinsCount(TeamEntity team, int count) {
+        List<MatchEntity> lastMatches = matchDao.getTeamMatches(team, count);
+        return getWinsCount(lastMatches, team);
     }
 
     private int getWinsCount(List<MatchEntity> matches, TeamEntity team) {
