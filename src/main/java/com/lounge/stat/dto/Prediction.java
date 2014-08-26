@@ -21,6 +21,9 @@ public class Prediction {
     private int team2Wincoef;
     private int team1Latestcoef;
     private int team2Latestcoef;
+    private int versusCount;
+    private int vsTeam1Wins;
+    private int vsTeam2Wins;
     private int team1matches;
     private int team2matches;
     private int team1wins;
@@ -53,7 +56,35 @@ public class Prediction {
         team1image = en.getTeam1().getImage();
         team2image = en.getTeam2().getImage();
 
+        versusCount = en.getVersusCount();
+        vsTeam1Wins = en.getVsTeam1Wins();
+        vsTeam2Wins = en.getVsTeam2Wins();
+
         date = DateFormat.getInstance().format(en.getDate());
+    }
+
+    public int getVersusCount() {
+        return versusCount;
+    }
+
+    public void setVersusCount(int versusCount) {
+        this.versusCount = versusCount;
+    }
+
+    public int getVsTeam1Wins() {
+        return vsTeam1Wins;
+    }
+
+    public void setVsTeam1Wins(int vsTeam1Wins) {
+        this.vsTeam1Wins = vsTeam1Wins;
+    }
+
+    public int getVsTeam2Wins() {
+        return vsTeam2Wins;
+    }
+
+    public void setVsTeam2Wins(int vsTeam2Wins) {
+        this.vsTeam2Wins = vsTeam2Wins;
     }
 
     public int getId() {

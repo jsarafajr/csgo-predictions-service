@@ -18,6 +18,9 @@ public class PredictionEntity {
     private Integer team2Latestcoef;
     private TeamEntity team1;
     private TeamEntity team2;
+    private int versusCount;
+    private int vsTeam1Wins;
+    private int vsTeam2Wins;
     private Timestamp date;
 
     @Id
@@ -118,6 +121,36 @@ public class PredictionEntity {
 
     public void setDate(Timestamp date) {
         this.date = date;
+    }
+
+    @Basic
+    @Column(name = "versusCount")
+    public int getVersusCount() {
+        return versusCount;
+    }
+
+    public void setVersusCount(int versusCount) {
+        this.versusCount = versusCount;
+    }
+
+    @Basic
+    @Column(name = "vsTeam1Wins")
+    public int getVsTeam1Wins() {
+        return vsTeam1Wins;
+    }
+
+    public void setVsTeam1Wins(int vsTeam1Wins) {
+        this.vsTeam1Wins = vsTeam1Wins;
+    }
+
+    @Basic
+    @Column(name = "vsTeam2Wins")
+    public int getVsTeam2Wins() {
+        return vsTeam2Wins;
+    }
+
+    public void setVsTeam2Wins(int vsTeam2Wins) {
+        this.vsTeam2Wins = vsTeam2Wins;
     }
 
     @Override

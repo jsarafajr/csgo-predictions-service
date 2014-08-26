@@ -36,6 +36,7 @@ public class PredictionService {
         CalcResult calcResult = calculation.getResult(team1, team2);
 
         PredictionEntity prediction = new PredictionEntity();
+
         prediction.setDate(new Timestamp(new GregorianCalendar(year, mounth, day).getTimeInMillis()));
         prediction.setTeam1(team1);
         prediction.setTeam2(team2);
@@ -45,6 +46,9 @@ public class PredictionService {
         prediction.setTeam2Wincoef(calcResult.getTeam2WinCoef());
         prediction.setTeam1Latestcoef(calcResult.getTeam1LatestWins());
         prediction.setTeam2Latestcoef(calcResult.getTeam2LatestWins());
+        prediction.setVersusCount(calcResult.getVersusCount());
+        prediction.setVsTeam1Wins(calcResult.getVsTeam1Wins());
+        prediction.setVsTeam2Wins(calcResult.getVsTeam2Wins());
 
         predictionDao.save(prediction);
     }

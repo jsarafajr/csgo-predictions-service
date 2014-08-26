@@ -37,10 +37,15 @@ public class Calculation {
         res.setTeam1LatestWins(getLastWinsCount(team1, 10));
         res.setTeam2LatestWins(getLastWinsCount(team2, 10));
 
+        res.setVersusCount(getVersusMatchesCount(team1, team2));
+        res.setVsTeam1Wins(getTeam1VersusWins(team1, team2));
+        res.setVsTeam2Wins(getTeam2VersusWins(team1, team2));
+
         double k = 1f / (team1Total + team2Total);
 
         res.setTeam1Total((int) (100 * team1Total * k));
         res.setTeam2Total(100 - res.getTeam1Total());
+
 
         return res;
     }
@@ -63,6 +68,18 @@ public class Calculation {
 
         if (lastMatches.size() == 0) return 0.5;
         return (double) team1WinsCount / lastMatches.size();
+    }
+
+    private int getVersusMatchesCount(TeamEntity team1, TeamEntity team2) {
+        return matchDao.getTeamsVersusMatches(team1, team2).size();
+    }
+
+    private int getTeam1VersusWins(TeamEntity team1, TeamEntity team2) {
+        return  getWinsCount(matchDao.getTeamsVersusMatches(team1, team2), team1);
+    }
+
+    private int getTeam2VersusWins(TeamEntity team1, TeamEntity team2) {
+        return  getWinsCount(matchDao.getTeamsVersusMatches(team1, team2), team2);
     }
 
     private int getLastWinsCount(TeamEntity team, int count) {

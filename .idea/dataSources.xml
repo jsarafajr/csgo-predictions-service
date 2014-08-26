@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="3873198899">
+  <component name="DataSourceManagerImpl" format="xml" hash="3623624701">
     <data-source source="LOCAL" name="src:main:webapp:WEB-INF:hibernate.cfg.xml" uuid="c35df93e-9b9b-4ebb-b0b2-9dd4e7b8bd96">
       <driver-ref>mysql</driver-ref>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://csgo-bets-stat-db.ctrqkhj4phag.us-west-2.rds.amazonaws.com:3306/db</jdbc-url>
-      <user-name>father1337</user-name>
-      <user-password>dfdbdfdddfcfdfd8dfdedfd3df9bdf98df99</user-password>
+      <jdbc-url>jdbc:mysql://eu-cdbr-west-01.cleardb.com/heroku_6e26485e288d714</jdbc-url>
+      <user-name>b07e5a872f8c1a</user-name>
+      <user-password>df92dfcedf9bdfc9dfccdf98df93df9a</user-password>
       <libraries>
         <library>
           <url>file://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.31/mysql-connector-java-5.1.31.jar</url>

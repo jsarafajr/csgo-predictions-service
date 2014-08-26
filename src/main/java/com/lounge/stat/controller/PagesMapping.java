@@ -2,7 +2,6 @@ package com.lounge.stat.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
 import static org.springframework.web.bind.annotation.RequestMethod.*;
@@ -23,8 +22,8 @@ public class PagesMapping {
         return new ModelAndView("add_match");
     }
 
-    @RequestMapping(value = "/all_teams", method = GET)
+    @RequestMapping(value = "/teams", method = GET)
     public ModelAndView allTeamsPage() {
-        return new ModelAndView("all_teams");
+        return new ModelAndView("teams");
     }
 }

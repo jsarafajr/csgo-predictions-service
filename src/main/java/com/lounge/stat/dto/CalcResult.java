@@ -10,6 +10,33 @@ public class CalcResult {
     private int team2WinCoef;
     private int team1LatestWins;
     private int team2LatestWins;
+    private int versusCount;
+    private int vsTeam1Wins;
+    private int vsTeam2Wins;
+
+    public int getVersusCount() {
+        return versusCount;
+    }
+
+    public void setVersusCount(int versusCount) {
+        this.versusCount = versusCount;
+    }
+
+    public int getVsTeam1Wins() {
+        return vsTeam1Wins;
+    }
+
+    public void setVsTeam1Wins(int vsTeam1Wins) {
+        this.vsTeam1Wins = vsTeam1Wins;
+    }
+
+    public int getVsTeam2Wins() {
+        return vsTeam2Wins;
+    }
+
+    public void setVsTeam2Wins(int vsTeam2Wins) {
+        this.vsTeam2Wins = vsTeam2Wins;
+    }
 
     public int getTeam1Total() {
         return team1Total;
