@@ -4,6 +4,9 @@ import com.lounge.stat.model.PredictionEntity;
 import com.lounge.stat.model.TeamEntity;
 
 import java.sql.Timestamp;
+import java.text.DateFormat;
+import java.util.Calendar;
+import java.util.GregorianCalendar;
 
 /**
  * Created by jsarafajr on 25.08.14.
@@ -24,7 +27,7 @@ public class Prediction {
     private int team2wins;
     private String team1image;
     private String team2image;
-    private Timestamp date;
+    private String date;
 
     public Prediction(PredictionEntity en) {
         id = en.getId();
@@ -50,8 +53,7 @@ public class Prediction {
         team1image = en.getTeam1().getImage();
         team2image = en.getTeam2().getImage();
 
-        date = en.getDate();
-
+        date = DateFormat.getInstance().format(en.getDate());
     }
 
     public int getId() {
@@ -174,11 +176,11 @@ public class Prediction {
         this.team2image = team2image;
     }
 
-    public Timestamp getDate() {
+    public String getDate() {
         return date;
     }
 
-    public void setDate(Timestamp date) {
+    public void setDate(String date) {
         this.date = date;
     }
 }

@@ -7,7 +7,7 @@ import java.sql.Timestamp;
  * Created by jsarafajr on 24.08.14.
  */
 @Entity
-@Table(name = "Prediction", schema = "", catalog = "db")
+@Table(name = "Prediction")
 public class PredictionEntity {
     private int id;
     private Integer percent1;

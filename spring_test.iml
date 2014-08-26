@@ -18,7 +18,6 @@
     <facet type="hibernate" name="Hibernate">
       <configuration>
         <datasource-map>
-          <unit-entry name="hibernate.cfg.xml" value="7aa139c6-386c-4418-b25a-735f29e4b270" />
           <unit-entry name="sessionFactory" value="c35df93e-9b9b-4ebb-b0b2-9dd4e7b8bd96" />
           <unit-entry name="src:main:webapp:WEB-INF:hibernate.cfg.xml" value="c35df93e-9b9b-4ebb-b0b2-9dd4e7b8bd96" />
         </datasource-map>

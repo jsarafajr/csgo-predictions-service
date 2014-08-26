@@ -3,8 +3,8 @@
  */
 
 $(document).ready(function() {
-    $('#show_details1').click(function(){// на нажатие h1 вешаем обработчик, который
-        $('#match_details1').slideToggle(300);        // у элемента с #toggler переключет видимость
+    $('#show_details1').click(function(){
+        $('#match_details1').slideToggle(300);
         $('#match1').css({
             "borderBottom" : "0"
         });

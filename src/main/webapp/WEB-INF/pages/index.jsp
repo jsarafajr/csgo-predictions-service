@@ -10,7 +10,7 @@
 		<script src="/resources/js/jquery.scrolly.min.js"></script>
 		<script src="/resources/js/skel.min.js"></script>
 		<script src="/resources/js/init.js"></script>
-        <script src="/resources/js/tmp.js"></script>
+        <script src="/resources/js/index.js"></script>
         <link rel="stylesheet" href="/resources/css/progress.css">
         <noscript>
             <link rel="stylesheet" href="/resources/css/skel.css" />
@@ -34,24 +34,22 @@
             </nav>
 
 		<!-- Predictions -->
-			<div class="wrapper style2">
+			<div class="wrapper style2" id="wraper">
 				<article id="work">
 					<header>
 						<h2>Upcoming matches:</h2>
 					</header>
-					<div class="container">
+					<div class="container" id="upc_match">
                         <!-- ROW #1 -->
-						<div class="row match_row">
+						<!--
+                        <div class="row match_row">
                             <div class="box style1" id="match1">
-                            	<!-- Team 1 -->
                                 <div style="display: inline-block">
                                     <section style="padding-top: 1em">
-                                        <!--<span class="icon featured fa-comments-o"></span>-->
                                         <img class="featured fa-comment-o" src="/resources/images/mouse.jpg">
                                         <h4>Mousesports</h4>
                                     </section>
                                 </div>
-                                <!-- Percent  -->
                                 <div class="progress">
                                     <ul class="percent-bar">
                                         <li class="percent-bar__fill" style="width:88%;"><span class="percent-bar__label">89%</span></li>
@@ -59,16 +57,13 @@
                                     </ul>
                                     <div class="details_bnt button" id="show_details1">Show details</div>
                                 </div>
-                                <!-- Team 2 -->
                                 <div style="display:inline-block">
                                     <section style="padding-top: 1em">
-                                        <!--<span class="icon featured fa-comments-o"></span>-->
                                         <img class="featured fa-comment-o" src="/resources/images/Epsilon.jpg">
                                         <h4>Epsilon</h4>
                                     </section>
                                 </div>
 							</div>
-                            <!-- Details -->
                             <div class="box style1 togler" id="match_details1">
                                 <div class="details_team_div" style="float: left">
                                     <span>Won <b>3</b> of <b>5</b> matches - <b>35%</b></span> <br>
@@ -92,39 +87,8 @@
                                 <br>
                                 <span>[show all]</span>
                             </div>
-                        </div>
+                        </div> -->
 
-                        <!-- ROW 2 -->
-                        <div class="row match_row">
-                            <div class="box style1">
-                                <!-- Team 1 -->
-                                <div style="display: inline-block">
-                                    <section style="padding-top: 1em">
-                                        <!--<span class="icon featured fa-comments-o"></span>-->
-                                        <img class="featured fa-comment-o" src="/resources/images/navi.png">
-                                        <h4>Natus Vincere</h4>
-                                    </section>
-                                </div>
-                                <!-- Percent  -->
-                                <div class="progress">
-                                    <ul class="percent-bar">
-                                        <div>
-                                            <li class="percent-bar__fill" style="width:39%;"><span class="percent-bar__label">40%</span></li>
-                                            <li class="percent-bar__fill blue" style="width:59%;"><span class="percent-bar__label">60%</span></li>
-                                        </div>
-                                    </ul>
-                                    <div class="details_bnt button">Show details</div>
-                                </div>
-                                <!-- Team 2 -->
-                                <div style="display:inline-block">
-                                    <section style="padding-top: 1em">
-                                        <!--<span class="icon featured fa-comments-o"></span>-->
-                                        <img class="featured fa-comment-o" src="/resources/images/virtuspro.png">
-                                        <h4>Virtus.pro</h4>
-                                    </section>
-                                </div>
-                            </div>
-                        </div>
 					</div>
 
 
@@ -132,10 +96,10 @@
 			</div>
 
         <!-- Contact -->
-        <div class="wrapper style4">
+        <div class="wrapper style4" id="foot">
             <div class="row">
                 <div class="12u">
-                    <h3>Find me on ...</h3>
+                    <h3></h3>
                 </div>
             </div>
         </div>

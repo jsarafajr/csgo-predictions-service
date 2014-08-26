@@ -7,7 +7,7 @@ import java.sql.Timestamp;
  * Created by jsarafajr on 16.08.14.
  */
 @Entity
-@Table(name = "Mtch", schema = "", catalog = "db")
+@Table(name = "Mtch")
 public class MatchEntity {
     private int id;
     private Integer score1;

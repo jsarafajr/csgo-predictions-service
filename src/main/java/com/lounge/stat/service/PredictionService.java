@@ -49,8 +49,8 @@ public class PredictionService {
         predictionDao.save(prediction);
     }
 
-    public ArrayList<Prediction> getAll() {
-        List<PredictionEntity> entities = predictionDao.getAll(); // todo add order
+    public ArrayList<Prediction> getAllOrdered() {
+        List<PredictionEntity> entities = predictionDao.getAllOrdered(); // todo add order
         ArrayList<Prediction> predictions = new ArrayList<>(entities.size());
 
         for (PredictionEntity en : entities) {

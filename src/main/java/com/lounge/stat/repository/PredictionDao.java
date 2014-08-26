@@ -1,8 +1,10 @@
 package com.lounge.stat.repository;
 
 import com.lounge.stat.model.PredictionEntity;
+import org.hibernate.Criteria;
 import org.hibernate.Query;
 import org.hibernate.Session;
+import org.hibernate.criterion.Order;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
@@ -28,7 +30,16 @@ public class PredictionDao extends GenericDao<PredictionEntity> {
 
     @Override
     public List<PredictionEntity> getAll() {
-        return null;
+        Session session = getSession();
+        Criteria criteria = session.createCriteria(PredictionEntity.class);
+        return criteria.list();
+    }
+
+    public List<PredictionEntity> getAllOrdered() {
+        Session session = getSession();
+        Criteria criteria = session.createCriteria(PredictionEntity.class);
+        criteria.addOrder(Order.asc("date"));
+        return criteria.list();
     }
 
 }
