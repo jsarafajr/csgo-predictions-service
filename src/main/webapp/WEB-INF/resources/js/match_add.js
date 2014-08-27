@@ -46,15 +46,15 @@ function getAllTeamsNames() {
         dataType: "json",
         success: function(data) {
             setTeamsToSelects(data);
-        },
-        error: function() {
-            teams = [];
+            $("#status").html();
         }
     });
 }
 
 function match_add() {
     $("#add_match").submit(function() {
+        $("#status").html("Processing...");
+
         var url = "/match/add-prediction";
 
         var name1 = $("#team_1").val();
@@ -69,10 +69,12 @@ function match_add() {
             data: {"name1" : name1, "name2" : name2,
                 "day" : day, "month" : month, "year" : year},
             success: function(data) {
-                alert("Ok")
+                alert("Ok");
+                $("#status").html();
             },
             error: function() {
-                alert("Error")
+                alert("Error");
+                $("#status").html();
             }
         });
 

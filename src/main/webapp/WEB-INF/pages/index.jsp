@@ -1,17 +1,19 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Bets Predictions CSGO</title>
+		<title>Match Predictions CSGO</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
-		<meta name="keywords" content="" />
-		<!--[if lte IE 8]><script src="/resources/css/ie/html5shiv.js"></script><![endif]-->
-		<script src="/resources/js/jquery.min.js"></script>
-		<script src="/resources/js/jquery.scrolly.min.js"></script>
-		<script src="/resources/js/skel.min.js"></script>
-		<script src="/resources/js/init.js"></script>
-        <script src="/resources/js/index.js"></script>
+        <meta name="keywords" content="" />
+        <script src="/resources/js/jquery.min.js"></script>
+        <script src="/resources/js/jquery.scrolly.min.js"></script>
+        <script src="/resources/js/popup.min.js"></script>
+        <link rel="stylesheet" href="/resources/css/popup.css">
         <link rel="stylesheet" href="/resources/css/progress.css">
+        <!--[if lte IE 8]><script src="/resources/css/ie/html5shiv.js"></script><![endif]-->
+        <script src="/resources/js/skel.min.js"></script>
+        <script src="/resources/js/init.js"></script>
+        <script src="/resources/js/index.js"></script>
         <noscript>
             <link rel="stylesheet" href="/resources/css/skel.css" />
             <link rel="stylesheet" href="/resources/css/style.css" />
@@ -19,7 +21,9 @@
         </noscript>
 		<!--[if lte IE 8]><link rel="stylesheet" href="/resources/css/ie/v8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="/resources/css/ie/v9.css" /><![endif]-->
+        <link rel="stylesheet" href="/resources/css/table.css">
 	</head>
+
 	<body>
 
 		<!-- Nav -->
@@ -88,13 +92,11 @@
                                 <span>[show all]</span>
                             </div>
                         </div> -->
-
 					</div>
 
 
 				</article>
 			</div>
-
         <!-- Contact -->
         <div class="wrapper style4" id="foot">
             <div class="row">
@@ -103,6 +105,5 @@
                 </div>
             </div>
         </div>
-
     </body>
 </html>

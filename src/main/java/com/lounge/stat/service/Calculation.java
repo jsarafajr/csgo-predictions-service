@@ -26,8 +26,8 @@ public class Calculation {
         double team1vsTeam2LastMatchesCoeff = getLastVersusMatchesCoef(team1, team2, 5);
         double team2vsTeam1LastMatchesCoeff = 1f - team1vsTeam2LastMatchesCoeff;
 
-        double team1Total = team1WinLoseCoeff * 0.3 + team1LastMatchesCoeff * 0.3 + team1vsTeam2LastMatchesCoeff * 0.4;
-        double team2Total = team2WinLoseCoeff * 0.3 + team2LastMatchesCoeff * 0.3 + team2vsTeam1LastMatchesCoeff * 0.4;
+        double team1Total = team1WinLoseCoeff * 0.2 + team1LastMatchesCoeff * 0.3 + team1vsTeam2LastMatchesCoeff * 0.5;
+        double team2Total = team2WinLoseCoeff * 0.2 + team2LastMatchesCoeff * 0.3 + team2vsTeam1LastMatchesCoeff * 0.5;
 
         CalcResult res = new CalcResult();
 

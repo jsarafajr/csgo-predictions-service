@@ -16,5 +16,6 @@
         <br>
         <input type="submit">
     </form>
+    <span id="status"></span>
 </body>
 </html>

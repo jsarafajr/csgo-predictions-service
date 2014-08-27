@@ -15,6 +15,15 @@ import java.util.List;
 @Repository
 public class PredictionDao extends GenericDao<PredictionEntity> {
 
+    public PredictionEntity get(int id) {
+        Session session = getSession();
+
+        Query query = session.createQuery("from PredictionEntity p where p.id=:id");
+        query.setParameter("id", id);
+
+        return (PredictionEntity) query.uniqueResult();
+    }
+
     @Override
     public PredictionEntity get(PredictionEntity prediction) {
         Session session = getSession();
