@@ -3,7 +3,7 @@
  */
 
 $(document).ready(function() {
-    $("#wraper").css("minHeight", $(window).height() - ($("#foot").height() * 5)); //todo O_O
+//    $("#wraper").css("minHeight", $(window).height() - ($("#foot").height() * 5)); //todo O_O
     getMatches();
 
 });
@@ -21,6 +21,13 @@ function getMatches() {
 }
 
 function showDetails(id){
+    var button = $('#show_details' + id);
+    if (button.html() == 'Show details') {
+        button.html("Hide details");
+    } else {
+        button.html("Show details");
+    }
+
     $('#match_details' + id).slideToggle(300);
     $('#match' + id).css({
         "borderBottom" : "0"
