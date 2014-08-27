@@ -29,8 +29,8 @@
 		<!-- Nav -->
 			<nav id="nav">
 				<ul class="container" style="display: inline">
-					<li><a href="#">Reply</a></li>
-					<li><a href="#work">About</a></li>
+					<li><a href="#" id="reply_form_button">Reply</a></li>
+					<li><a href="#" id="about_button">About</a></li>
 				</ul>
                 <div id="lang_panel">
                     <img src="/resources/images/flag_ru.gif">
@@ -97,6 +97,49 @@
 
 				</article>
 			</div>
+
+        <%-- ABOUT --%>
+        <div id="about" style="display: none">
+            <h4>Work in progress...</h4>
+        </div>
+
+        <%-- REPLY --%>
+        <div class="row" id="reply_form" style="display: none">
+            <div class="12u">
+                <form action="#">
+                    <div>
+                        <h4>Send message: </h4>
+                        <div class="row">
+                            <div class="6u">
+                                <input type="text" name="name" id="name" placeholder="Name" />
+                            </div>
+                            <div class="6u">
+                                <input type="text" name="email" id="email" placeholder="Email" />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="12u">
+                                <input type="text" name="subject" id="subject" placeholder="Subject" />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="12u">
+                                <textarea name="message" id="message" placeholder="Message"></textarea>
+                            </div>
+                        </div>
+                        <div class="row double">
+                            <div class="12u" style="width: 100%; padding: 10px 0 0 50px;">
+                                <ul class="actions" style="width: 100%; text-align: center">
+                                    <li style="display: inline-block"><input type="submit" value="Send Message" /></li>
+                                    <li style="display: inline-block"><input type="reset" value="Clear Form" class="alt" /></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
         <!-- Contact -->
         <div class="wrapper style4" id="foot">
             <div class="row">

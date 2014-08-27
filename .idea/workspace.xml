@@ -27,63 +27,81 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/js/index.js">
+      <file leaf-file-name="Prediction.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lounge/stat/dto/Prediction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.29508197" vertical-offset="0" max-vertical-offset="2322">
-              <caret line="5" column="75" selection-start-line="5" selection-start-column="75" selection-end-line="5" selection-end-column="75" />
-              <folding>
-                <marker date="1409152945970" expanded="false" signature="1060:1081" placeholder="..." />
-                <marker date="1409152945970" expanded="false" signature="1128:1144" placeholder="..." />
-                <marker date="1409152945970" expanded="false" signature="2159:2180" placeholder="..." />
-                <marker date="1409152945970" expanded="false" signature="2227:2243" placeholder="..." />
-                <marker date="1409152945970" expanded="false" signature="2715:2726" placeholder="..." />
-                <marker date="1409152945970" expanded="false" signature="2985:2997" placeholder="..." />
-                <marker date="1409152945970" expanded="true" signature="3231:3281" placeholder="..." />
-                <marker date="1409152945970" expanded="false" signature="3325:3346" placeholder="..." />
-                <marker date="1409152945970" expanded="true" signature="3573:3584" placeholder="..." />
-                <marker date="1409152945970" expanded="true" signature="4032:4044" placeholder="..." />
-                <marker date="1409152945970" expanded="true" signature="4533:4549" placeholder="..." />
-                <marker date="1409152945970" expanded="true" signature="5112:5139" placeholder="..." />
-                <marker date="1409152945970" expanded="true" signature="5189:5228" placeholder="..." />
-                <marker date="1409152945970" expanded="true" signature="5301:5340" placeholder="..." />
-                <marker date="1409152945970" expanded="true" signature="5446:5485" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HltvMatchesStatParser.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lounge/stat/service/HltvMatchesStatParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2616" max-vertical-offset="2934">
-              <caret line="165" column="36" selection-start-line="165" selection-start-column="36" selection-end-line="165" selection-end-column="36" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="757" max-vertical-offset="2556">
+              <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MatchService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lounge/stat/service/MatchService.java">
+      <file leaf-file-name="index.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="312" max-vertical-offset="630">
-              <caret line="27" column="52" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
+            <state vertical-scroll-proportion="0.41311476" vertical-offset="1566" max-vertical-offset="2502">
+              <caret line="94" column="91" selection-start-line="94" selection-start-column="91" selection-end-line="94" selection-end-column="91" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#getMatches#0;class#MatchService#0" expanded="false" />
+                <marker date="1409156586382" expanded="false" signature="1210:1231" placeholder="..." />
+                <marker date="1409156586382" expanded="false" signature="1278:1294" placeholder="..." />
+                <marker date="1409156586382" expanded="false" signature="2309:2330" placeholder="..." />
+                <marker date="1409156586382" expanded="false" signature="2377:2393" placeholder="..." />
+                <marker date="1409156586382" expanded="false" signature="2865:2876" placeholder="..." />
+                <marker date="1409156586382" expanded="false" signature="3135:3147" placeholder="..." />
+                <marker date="1409156586382" expanded="true" signature="3381:3431" placeholder="..." />
+                <marker date="1409156586382" expanded="false" signature="3475:3496" placeholder="..." />
+                <marker date="1409156586382" expanded="true" signature="3723:3734" placeholder="..." />
+                <marker date="1409156586382" expanded="true" signature="4182:4194" placeholder="..." />
+                <marker date="1409156586382" expanded="true" signature="4422:4476" placeholder="..." />
+                <marker date="1409156586382" expanded="true" signature="4817:4833" placeholder="..." />
+                <marker date="1409156586382" expanded="true" signature="5396:5423" placeholder="..." />
+                <marker date="1409156586382" expanded="true" signature="5473:5512" placeholder="..." />
+                <marker date="1409156586382" expanded="true" signature="5585:5624" placeholder="..." />
+                <marker date="1409156586382" expanded="true" signature="5730:5769" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MatchController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lounge/stat/controller/MatchController.java">
+      <file leaf-file-name="MatchDao.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lounge/stat/repository/MatchDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="556" max-vertical-offset="936">
-              <caret line="43" column="29" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="53" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="1278">
+              <caret line="39" column="46" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PredictionDao.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lounge/stat/repository/PredictionDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="954">
+              <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PagesMapping.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lounge/stat/controller/PagesMapping.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="522">
+              <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="init.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/js/init.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="739" max-vertical-offset="1044">
+              <caret line="12" column="63" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="63" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -91,8 +109,8 @@
       <file leaf-file-name="Match.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/lounge/stat/dto/Match.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="468" max-vertical-offset="1044">
-              <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="1044">
+              <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="25" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -113,38 +131,18 @@
       <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.3333335" vertical-offset="216" max-vertical-offset="2052">
-              <caret line="23" column="61" selection-start-line="23" selection-start-column="61" selection-end-line="23" selection-end-column="61" />
+            <state vertical-scroll-proportion="-0.962963" vertical-offset="1792" max-vertical-offset="2826">
+              <caret line="101" column="44" selection-start-line="101" selection-start-column="44" selection-end-line="101" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="all_teams.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/js/all_teams.js">
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="774">
-              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="match_add.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/js/match_add.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1062" max-vertical-offset="1584">
-              <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jquery.min.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/js/jquery.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-4.962963" vertical-offset="3736" max-vertical-offset="12222">
+              <caret line="215" column="30" selection-start-line="215" selection-start-column="30" selection-end-line="215" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -184,14 +182,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/lounge/stat/model/StatisticEntity.java" />
         <option value="dbtable:/4776c464/c49e2b6d-2700-4fa5-9826-0cf930273643/heroku_6e26485e288d714..prediction" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/js/tmp.js" />
-        <option value="dbtable:/4776c464/c49e2b6d-2700-4fa5-9826-0cf930273643/heroku_6e26485e288d714..team" />
         <option value="$PROJECT_DIR$/src/main/java/com/lounge/stat/model/MatchEntity.java" />
         <option value="dbtable:/4776c464/c49e2b6d-2700-4fa5-9826-0cf930273643/heroku_6e26485e288d714..mtch" />
         <option value="$PROJECT_DIR$/src/main/java/com/lounge/stat/dto/CalcResult.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lounge/stat/model/PredictionEntity.java" />
         <option value="dbtable:/4776c464/c35df93e-9b9b-4ebb-b0b2-9dd4e7b8bd96/heroku_6e26485e288d714..prediction" />
         <option value="$PROJECT_DIR$/src/main/java/com/lounge/stat/service/PredictionService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lounge/stat/dto/Prediction.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lounge/stat/service/Calculation.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/add_match.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/js/jquery.popup.window.js" />
@@ -206,10 +202,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/lounge/stat/repository/PredictionDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lounge/stat/service/MatchService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lounge/stat/controller/MatchController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/css/style.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/css/table.css" />
         <option value="$PROJECT_DIR$/src/main/java/com/lounge/stat/dto/Match.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/css/style.css" />
+        <option value="dbtable:/4776c464/c49e2b6d-2700-4fa5-9826-0cf930273643/heroku_6e26485e288d714..team" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lounge/stat/dto/Prediction.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/js/index.js" />
       </list>
     </option>
@@ -1102,12 +1100,12 @@
       <workItem from="1408279186518" duration="26684000" />
       <workItem from="1408384696198" duration="55663000" />
       <workItem from="1408789041161" duration="76167000" />
-      <workItem from="1409132031665" duration="19529000" />
+      <workItem from="1409132031665" duration="23317000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="250815000" />
+    <option name="totallyTimeSpent" value="254603000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="743" extended-state="1" />
@@ -1120,7 +1118,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1344411" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18806647" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18683812" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39872408" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1215,14 +1213,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lounge/stat/repository/MatchDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="1278">
-          <caret line="39" column="46" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
@@ -1260,16 +1250,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/images/mouse.jpg">
       <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/4776c464/c49e2b6d-2700-4fa5-9826-0cf930273643/heroku_6e26485e288d714..team">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
         <state />
       </provider>
     </entry>
@@ -1417,14 +1397,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lounge/stat/repository/PredictionDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="954">
-          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lounge/stat/service/Calculation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="191" max-vertical-offset="1962">
@@ -1437,14 +1409,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1044">
           <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lounge/stat/dto/Prediction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="756" max-vertical-offset="2538">
-          <caret line="62" column="15" selection-start-line="62" selection-start-column="15" selection-end-line="62" selection-end-column="61" />
           <folding />
         </state>
       </provider>
@@ -1465,16 +1429,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lounge/stat/controller/PagesMapping.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="522">
-          <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lounge/stat/model/TeamEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1533" max-vertical-offset="2070">
@@ -1487,22 +1441,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="3906">
           <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-21.481482" vertical-offset="11534" max-vertical-offset="12222">
-          <caret line="673" column="0" selection-start-line="673" selection-start-column="0" selection-end-line="673" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/js/init.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="739" max-vertical-offset="1044">
-          <caret line="12" column="63" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="63" />
           <folding />
         </state>
       </provider>
@@ -1547,14 +1485,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/css/table.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="318">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lounge/stat/service/HltvMatchesStatParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2616" max-vertical-offset="2934">
@@ -1584,44 +1514,114 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lounge/stat/dto/Match.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="468" max-vertical-offset="1044">
-          <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+        <state vertical-scroll-proportion="-4.962963" vertical-offset="3736" max-vertical-offset="12222">
+          <caret line="215" column="30" selection-start-line="215" selection-start-column="30" selection-end-line="215" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/css/table.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="318">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/js/init.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="739" max-vertical-offset="1044">
+          <caret line="12" column="63" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.962963" vertical-offset="1792" max-vertical-offset="2826">
+          <caret line="101" column="44" selection-start-line="101" selection-start-column="44" selection-end-line="101" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/4776c464/c49e2b6d-2700-4fa5-9826-0cf930273643/heroku_6e26485e288d714..team">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lounge/stat/repository/MatchDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="1278">
+          <caret line="39" column="46" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lounge/stat/repository/PredictionDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="954">
+          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lounge/stat/controller/PagesMapping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="522">
+          <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lounge/stat/dto/Match.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.3333335" vertical-offset="216" max-vertical-offset="2052">
-          <caret line="23" column="61" selection-start-line="23" selection-start-column="61" selection-end-line="23" selection-end-column="61" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="1044">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="25" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lounge/stat/dto/Prediction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="757" max-vertical-offset="2556">
+          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29508197" vertical-offset="0" max-vertical-offset="2322">
-          <caret line="5" column="75" selection-start-line="5" selection-start-column="75" selection-end-line="5" selection-end-column="75" />
+        <state vertical-scroll-proportion="0.41311476" vertical-offset="1566" max-vertical-offset="2502">
+          <caret line="94" column="91" selection-start-line="94" selection-start-column="91" selection-end-line="94" selection-end-column="91" />
           <folding>
-            <marker date="1409152945970" expanded="false" signature="1060:1081" placeholder="..." />
-            <marker date="1409152945970" expanded="false" signature="1128:1144" placeholder="..." />
-            <marker date="1409152945970" expanded="false" signature="2159:2180" placeholder="..." />
-            <marker date="1409152945970" expanded="false" signature="2227:2243" placeholder="..." />
-            <marker date="1409152945970" expanded="false" signature="2715:2726" placeholder="..." />
-            <marker date="1409152945970" expanded="false" signature="2985:2997" placeholder="..." />
-            <marker date="1409152945970" expanded="true" signature="3231:3281" placeholder="..." />
-            <marker date="1409152945970" expanded="false" signature="3325:3346" placeholder="..." />
-            <marker date="1409152945970" expanded="true" signature="3573:3584" placeholder="..." />
-            <marker date="1409152945970" expanded="true" signature="4032:4044" placeholder="..." />
-            <marker date="1409152945970" expanded="true" signature="4533:4549" placeholder="..." />
-            <marker date="1409152945970" expanded="true" signature="5112:5139" placeholder="..." />
-            <marker date="1409152945970" expanded="true" signature="5189:5228" placeholder="..." />
-            <marker date="1409152945970" expanded="true" signature="5301:5340" placeholder="..." />
-            <marker date="1409152945970" expanded="true" signature="5446:5485" placeholder="..." />
+            <marker date="1409156586382" expanded="false" signature="1210:1231" placeholder="..." />
+            <marker date="1409156586382" expanded="false" signature="1278:1294" placeholder="..." />
+            <marker date="1409156586382" expanded="false" signature="2309:2330" placeholder="..." />
+            <marker date="1409156586382" expanded="false" signature="2377:2393" placeholder="..." />
+            <marker date="1409156586382" expanded="false" signature="2865:2876" placeholder="..." />
+            <marker date="1409156586382" expanded="false" signature="3135:3147" placeholder="..." />
+            <marker date="1409156586382" expanded="true" signature="3381:3431" placeholder="..." />
+            <marker date="1409156586382" expanded="false" signature="3475:3496" placeholder="..." />
+            <marker date="1409156586382" expanded="true" signature="3723:3734" placeholder="..." />
+            <marker date="1409156586382" expanded="true" signature="4182:4194" placeholder="..." />
+            <marker date="1409156586382" expanded="true" signature="4422:4476" placeholder="..." />
+            <marker date="1409156586382" expanded="true" signature="4817:4833" placeholder="..." />
+            <marker date="1409156586382" expanded="true" signature="5396:5423" placeholder="..." />
+            <marker date="1409156586382" expanded="true" signature="5473:5512" placeholder="..." />
+            <marker date="1409156586382" expanded="true" signature="5585:5624" placeholder="..." />
+            <marker date="1409156586382" expanded="true" signature="5730:5769" placeholder="..." />
           </folding>
         </state>
       </provider>

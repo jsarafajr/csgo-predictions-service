@@ -4,8 +4,16 @@
 
 $(document).ready(function() {
     $("#wraper").css("minHeight", $(window).height() - ($("#foot").height())); //todo O_O
+
     getMatches();
 
+    $('#reply_form_button').popup({
+        content : $('#reply_form')
+    });
+
+    $('#about_button').popup({
+        content : $('#about')
+    });
 });
 
 function getMatches() {
@@ -84,7 +92,9 @@ function mapMatches(data) {
                             "<span>" + data[i].team2Name + ": <b>" + data[i].vsTeam2Wins + "</b> wins</span> <br>" +
                         "</div>" +
                         "<br>" +
-                        "<span class='button' id='popup_versus" + data[i].id + "'>see all</span>" +
+                        "<div style='text-align: center; width: 100%;display: inline-block;'>" +
+                            "<div class='button' id='popup_versus" + data[i].id + "'>see all</div>" +
+                        "</div>" +
                     "</div>" +
                 "</div>" +
             "</div>"

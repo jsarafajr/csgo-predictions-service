@@ -5,6 +5,7 @@ import com.lounge.stat.model.TeamEntity;
 
 import java.sql.Timestamp;
 import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 
@@ -60,7 +61,8 @@ public class Prediction {
         vsTeam1Wins = en.getVsTeam1Wins();
         vsTeam2Wins = en.getVsTeam2Wins();
 
-        date = DateFormat.getInstance().format(en.getDate());
+        SimpleDateFormat sdf = new SimpleDateFormat("dd-M-yyyy");
+        date = sdf.format(en.getDate());
     }
 
     public int getVersusCount() {
