@@ -3,7 +3,7 @@
  */
 
 $(document).ready(function() {
-    $("#wraper").css("minHeight", $(window).height() - ($("#foot").height())); //todo O_O
+    $("#wraper").css("minHeight", $(window).height()); //todo O_O
 
     getMatches();
 
