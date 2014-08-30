@@ -1,4 +1,4 @@
-CS:GO Predictions 
+CS:GO Predictions Service
 ========================
 
 Web platform which function is to predict Counter-Strike official matches results. 
