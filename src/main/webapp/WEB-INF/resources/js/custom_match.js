@@ -54,6 +54,7 @@ function customMatchEvent() {
 
 function mapMatch(match) {
     var field = $("#custom_match_div");
+    field.html("");
     
     field.append(
             "<div class='row match_row' style='margin-top: 2%;margin-left: 0;'>" +
