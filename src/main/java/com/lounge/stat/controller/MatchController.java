@@ -35,10 +35,16 @@ public class MatchController {
         predictionService.addNewPrediction(name1, name2, day, month, year);
     }
 
+    @RequestMapping(value = "/get-single-prediction", method = POST)
+    @ResponseBody
+    public Prediction getSinglePrediction(@RequestParam String team1, @RequestParam String team2) {
+        return predictionService.getSinglePrediction(team1, team2);
+    }
+
     @RequestMapping(value = "/get-all-predictions", method = GET)
     @ResponseBody
     public List<Prediction> getAll() {
-        return predictionService.getAllOrdered();
+        return predictionService.getAllSorted();
     }
 
     @RequestMapping(value = "/get-versus-matches/{id}", method = GET)

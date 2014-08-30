@@ -26,4 +26,10 @@ public class PagesMapping {
     public ModelAndView allTeamsPage() {
         return new ModelAndView("teams");
     }
+
+    @RequestMapping(value = "/custom_match", method = GET)
+    public ModelAndView customMatchPage() {
+        return new ModelAndView("custom_match");
+    }
+
 }

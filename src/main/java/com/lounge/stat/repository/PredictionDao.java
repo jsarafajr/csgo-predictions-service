@@ -44,7 +44,7 @@ public class PredictionDao extends GenericDao<PredictionEntity> {
         return criteria.list();
     }
 
-    public List<PredictionEntity> getAllOrdered() {
+    public List<PredictionEntity> getAllSorted() {
         Session session = getSession();
         Criteria criteria = session.createCriteria(PredictionEntity.class);
         criteria.addOrder(Order.asc("date"));

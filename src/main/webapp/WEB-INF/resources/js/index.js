@@ -14,6 +14,11 @@ $(document).ready(function() {
     $('#about_button').popup({
         content : $('#about')
     });
+
+    $('#custom_button').popup({
+        width: 580,
+        height: 500
+    });
 });
 
 function getMatches() {

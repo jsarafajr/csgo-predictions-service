@@ -29,72 +29,23 @@
 		<!-- Nav -->
 			<nav id="nav">
 				<ul class="container" style="display: inline">
-					<li><a href="#" id="reply_form_button">Reply</a></li>
-					<li><a href="#" id="about_button">About</a></li>
+                    <li><a href="custom_match" id="custom_button">Custom match</a></li>
+                    <li><a href="#" id="reply_form_button">Reply</a></li>
+                    <li><a href="#" id="about_button">About</a></li>
 				</ul>
-                <div id="lang_panel">
+                <div id="lang_panel" style="display: none">
                     <img src="/resources/images/flag_ru.gif">
                 </div>
             </nav>
 
 		<!-- Predictions -->
 			<div class="wrapper style2" id="wraper">
-				<article id="work">
+				<article>
 					<header>
 						<h2>Upcoming matches:</h2>
 					</header>
 					<div class="container" id="upc_match">
-                        <!-- ROW #1 -->
-						<!--
-                        <div class="row match_row">
-                            <div class="box style1" id="match1">
-                                <div style="display: inline-block">
-                                    <section style="padding-top: 1em">
-                                        <img class="featured fa-comment-o" src="/resources/images/mouse.jpg">
-                                        <h4>Mousesports</h4>
-                                    </section>
-                                </div>
-                                <div class="progress">
-                                    <ul class="percent-bar">
-                                        <li class="percent-bar__fill" style="width:88%;"><span class="percent-bar__label">89%</span></li>
-                                        <li class="percent-bar__fill blue" style="width:10%;"><span class="percent-bar__label">11%</span></li>
-                                    </ul>
-                                    <div class="details_bnt button" id="show_details1">Show details</div>
-                                </div>
-                                <div style="display:inline-block">
-                                    <section style="padding-top: 1em">
-                                        <img class="featured fa-comment-o" src="/resources/images/Epsilon.jpg">
-                                        <h4>Epsilon</h4>
-                                    </section>
-                                </div>
-							</div>
-                            <div class="box style1 togler" id="match_details1">
-                                <div class="details_team_div" style="float: left">
-                                    <span>Won <b>3</b> of <b>5</b> matches - <b>35%</b></span> <br>
-                                    <span>Won <b>4</b> of the latest <b>5</b> matches - <b>80%</b></span> <br>
-                                </div>
-                                <div class="details_team_div" style="float: right">
-                                    <span>Won <b>80</b> of <b>158</b> matches - <b>66%</b></span> <br>
-                                    <span>Won <b>3</b> of the latest <b>5</b> matches - <b>30%</b></span> <br>
-                                </div>
-                                <span style="display: inline-block">All <b>Mousesports</b> vs <b>Epsilon</b> matches:</span>
-                                <br>
-                                <div class="details_team_div" style="float: left">
-                                    <span>Mousesports: <b>3</b> wins</span>
-                                </div>
-                                <div class="details_team_div">
-                                    <span>Draw: <b>3</b></span> <br>
-                                </div>
-                                <div class="details_team_div" style="float: right">
-                                    <span>Epsilon: <b>2</b> wins</span> <br>
-                                </div>
-                                <br>
-                                <span>[show all]</span>
-                            </div>
-                        </div> -->
 					</div>
-
-
 				</article>
 			</div>
 

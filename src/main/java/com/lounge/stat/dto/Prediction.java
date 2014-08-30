@@ -61,8 +61,14 @@ public class Prediction {
         vsTeam1Wins = en.getVsTeam1Wins();
         vsTeam2Wins = en.getVsTeam2Wins();
 
-        SimpleDateFormat sdf = new SimpleDateFormat("dd-M-yyyy");
-        date = sdf.format(en.getDate());
+        if (date != null) {
+            SimpleDateFormat sdf = new SimpleDateFormat("dd-M-yyyy");
+            date = sdf.format(en.getDate());
+        }
+    }
+
+    public Prediction() {
+
     }
 
     public int getVersusCount() {
