@@ -13,24 +13,25 @@
 </head>
 <body>
 <div id="custom_match" >
-    <form id="get_custom_match" style="width: 100%">
-        <h4>Custom match: </h4>
+    <h4>Custom match: </h4>
+    <form id="get_custom_match" style="width: 60%; margin: 0 auto">
         <div class="row" style="line-height: 55px">
-            <div>
+            <div style="display: inline-block;">
                 <select id="custom_team_1" style="padding: 0">
                     <option value="" style='display:none;' disabled selected >Select team</option>
                 </select>
             </div>
-            <div>
+            <div style="display: inline-block; margin: 0 1em">
                 <span>VS</span>
             </div>
-            <div>
+            <div style="display: inline-block">
                 <select id="custom_team_2" style="padding: 0">
                     <option value="" style='display:none;' disabled selected >Select team</option>
                 </select>
             </div>
+            <br>
+            <input type="submit" id="custom_match_btn" value="Predict!" style="display: inline-block; margin-left: 38%">
         </div>
-        <input type="submit" id="custom_match_btn" value="Predict!">
     </form>
     <div class="row" id="custom_match_div">
     </div>

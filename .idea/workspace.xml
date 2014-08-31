@@ -64,11 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom_match.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="custom_match.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/js/custom_match.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.47213113" vertical-offset="864" max-vertical-offset="2178">
-              <caret line="56" column="19" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="756" max-vertical-offset="2178">
+              <caret line="57" column="4" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
               <folding>
                 <marker date="1409427482300" expanded="true" signature="1355:1385" placeholder="..." />
                 <marker date="1409427482300" expanded="true" signature="1439:1467" placeholder="..." />
@@ -101,11 +101,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom_match.jsp" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="custom_match.jsp" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/custom_match.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.111111" vertical-offset="159" max-vertical-offset="828">
-              <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.20503597" vertical-offset="213" max-vertical-offset="846">
+              <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -114,7 +114,7 @@
       <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-26.296297" vertical-offset="46" max-vertical-offset="1944">
+            <state vertical-scroll-proportion="-0.2962963" vertical-offset="748" max-vertical-offset="1944">
               <caret line="42" column="24" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
               <folding />
             </state>
@@ -221,9 +221,9 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/css/style-desktop.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/js/index.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/custom_match.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/css/progress.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/js/custom_match.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/custom_match.jsp" />
       </list>
     </option>
   </component>
@@ -1051,12 +1051,12 @@
       <workItem from="1408279186518" duration="26684000" />
       <workItem from="1408384696198" duration="55663000" />
       <workItem from="1408789041161" duration="76167000" />
-      <workItem from="1409132031665" duration="51630000" />
+      <workItem from="1409132031665" duration="54367000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="282916000" />
+    <option name="totallyTimeSpent" value="285653000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="743" extended-state="1" />
@@ -1523,22 +1523,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-26.296297" vertical-offset="46" max-vertical-offset="1944">
-          <caret line="42" column="24" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/custom_match.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.111111" vertical-offset="159" max-vertical-offset="828">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/css/progress.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1135" max-vertical-offset="1458">
@@ -1580,10 +1564,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.2962963" vertical-offset="748" max-vertical-offset="1944">
+          <caret line="42" column="24" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/js/custom_match.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47213113" vertical-offset="864" max-vertical-offset="2178">
-          <caret line="56" column="19" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="756" max-vertical-offset="2178">
+          <caret line="57" column="4" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
           <folding>
             <marker date="1409427482300" expanded="true" signature="1355:1385" placeholder="..." />
             <marker date="1409427482300" expanded="true" signature="1439:1467" placeholder="..." />
@@ -1602,6 +1594,14 @@
             <marker date="1409427482300" expanded="true" signature="4554:4582" placeholder="..." />
             <marker date="1409427482300" expanded="true" signature="4806:4877" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/custom_match.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20503597" vertical-offset="213" max-vertical-offset="846">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
