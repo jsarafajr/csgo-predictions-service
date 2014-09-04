@@ -154,10 +154,10 @@ function mapCustomPredictions(data) {
 }
 
 function getSinglePrediction(id) {
-    $("#custom_match_div").html("");
-
     var team1 = $("#team1_" + id).html();
     var team2 = $("#team2_" + id).html();
+
+    $("#custom_match_div").html("");
 
     var url = "/match/get-single-prediction";
 
