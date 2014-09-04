@@ -1,7 +1,9 @@
 package com.lounge.stat.controller;
 
+import com.lounge.stat.dto.LastPrediction;
 import com.lounge.stat.dto.Match;
 import com.lounge.stat.dto.Prediction;
+import com.lounge.stat.service.LastPredService;
 import com.lounge.stat.service.MatchService;
 import com.lounge.stat.service.PredictionService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,6 +28,8 @@ public class MatchController {
     private PredictionService predictionService;
     @Autowired
     private MatchService matchService;
+    @Autowired
+    private LastPredService lastPredService;
 
     @RequestMapping(value = "/add-prediction", method = POST)
     @ResponseBody
@@ -39,6 +43,12 @@ public class MatchController {
     @ResponseBody
     public Prediction getSinglePrediction(@RequestParam String team1, @RequestParam String team2) {
         return predictionService.getSinglePrediction(team1, team2);
+    }
+
+    @RequestMapping(value = "/get-custom-predictions", method = GET)
+    @ResponseBody
+    public List<LastPrediction> getAllCustomPrediction() {
+        return lastPredService.getAll();
     }
 
     @RequestMapping(value = "/get-all-predictions", method = GET)

@@ -10,18 +10,20 @@
         <script src="/resources/js/popup.min.js"></script>
         <link rel="stylesheet" href="/resources/css/popup.css">
         <link rel="stylesheet" href="/resources/css/progress.css">
+        <link rel="stylesheet" href="/resources/css/table.css">
         <!--[if lte IE 8]><script src="/resources/css/ie/html5shiv.js"></script><![endif]-->
         <script src="/resources/js/skel.min.js"></script>
         <script src="/resources/js/init.js"></script>
         <script src="/resources/js/index.js"></script>
+        <link rel="stylesheet" href="/resources/css/jquery.toastmessage.css">
+        <script src="/resources/js/jquery.toastmessage.js"></script>
         <noscript>
             <link rel="stylesheet" href="/resources/css/skel.css" />
             <link rel="stylesheet" href="/resources/css/style.css" />
             <link rel="stylesheet" href="/resources/css/style-desktop.css" />
         </noscript>
-		<!--[if lte IE 8]><link rel="stylesheet" href="/resources/css/ie/v8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="/resources/css/ie/v9.css" /><![endif]-->
-        <link rel="stylesheet" href="/resources/css/table.css">
+        <!--[if lte IE 8]><link rel="stylesheet" href="/resources/css/ie/v8.css" /><![endif]-->
+        <!--[if lte IE 9]><link rel="stylesheet" href="/resources/css/ie/v9.css" /><![endif]-->
 	</head>
 
 	<body>

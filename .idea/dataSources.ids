@@ -8,6 +8,17 @@
     <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
     <schema name="" catalog="heroku_6e26485e288d714"/>
     <schema name="" catalog="information_schema"/>
+    <table name="last_pred" schema="" catalog="heroku_6e26485e288d714" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="Team1" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="Team2" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="Date" sqlType="DATETIME" precision="19" scale="0" nullable="true" jdbcType="93"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <foreign-key name="fk_last_pred_1" columns="Team1" ref-table="team" ref-schema="" ref-catalog="heroku_6e26485e288d714" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="fk_last_pred_2" columns="Team2" ref-table="team" ref-schema="" ref-catalog="heroku_6e26485e288d714" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <index name="fk_last_pred_1_idx" unique="false" columns="Team1"/>
+      <index name="fk_last_pred_2_idx" unique="false" columns="Team2"/>
+    </table>
     <table name="mtch" schema="" catalog="heroku_6e26485e288d714" type="TABLE">
       <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
       <column name="Team1" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
@@ -71,6 +82,8 @@
       <column name="Wins" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4" def="MA=="/>
       <column name="Image" sqlType="VARCHAR" precision="45" scale="0" nullable="true" jdbcType="12" def="J2RlZmF1bHQucG5nJw=="/>
       <primary-key name="PRIMARY" columns="id"/>
+      <exported-key name="fk_last_pred_1" table="last_pred" schema="" catalog="heroku_6e26485e288d714" columns="Team1"/>
+      <exported-key name="fk_last_pred_2" table="last_pred" schema="" catalog="heroku_6e26485e288d714" columns="Team2"/>
       <exported-key name="fk_Mtch_1" table="mtch" schema="" catalog="heroku_6e26485e288d714" columns="Team1"/>
       <exported-key name="fk_Mtch_2" table="mtch" schema="" catalog="heroku_6e26485e288d714" columns="Team2"/>
       <exported-key name="fk_Prediction_1" table="prediction" schema="" catalog="heroku_6e26485e288d714" columns="Team1"/>
@@ -646,6 +659,19 @@
     <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
     <schema name="" catalog="heroku_6e26485e288d714"/>
     <schema name="" catalog="information_schema"/>
+    <table name="last_pred" schema="" catalog="heroku_6e26485e288d714" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="Team1" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="Percent1" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="Team2" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="Percent2" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="Date" sqlType="DATETIME" precision="19" scale="0" nullable="true" jdbcType="93"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <foreign-key name="fk_last_pred_1" columns="Team1" ref-table="team" ref-schema="" ref-catalog="heroku_6e26485e288d714" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="fk_last_pred_2" columns="Team2" ref-table="team" ref-schema="" ref-catalog="heroku_6e26485e288d714" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <index name="fk_last_pred_1_idx" unique="false" columns="Team1"/>
+      <index name="fk_last_pred_2_idx" unique="false" columns="Team2"/>
+    </table>
     <table name="mtch" schema="" catalog="heroku_6e26485e288d714" type="TABLE">
       <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
       <column name="Team1" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
@@ -709,6 +735,8 @@
       <column name="Wins" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4" def="MA=="/>
       <column name="Image" sqlType="VARCHAR" precision="45" scale="0" nullable="true" jdbcType="12" def="J2RlZmF1bHQucG5nJw=="/>
       <primary-key name="PRIMARY" columns="id"/>
+      <exported-key name="fk_last_pred_1" table="last_pred" schema="" catalog="heroku_6e26485e288d714" columns="Team1"/>
+      <exported-key name="fk_last_pred_2" table="last_pred" schema="" catalog="heroku_6e26485e288d714" columns="Team2"/>
       <exported-key name="fk_Mtch_1" table="mtch" schema="" catalog="heroku_6e26485e288d714" columns="Team1"/>
       <exported-key name="fk_Mtch_2" table="mtch" schema="" catalog="heroku_6e26485e288d714" columns="Team2"/>
       <exported-key name="fk_Prediction_1" table="prediction" schema="" catalog="heroku_6e26485e288d714" columns="Team1"/>
