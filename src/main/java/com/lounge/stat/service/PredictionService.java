@@ -20,6 +20,8 @@ import java.util.List;
 @Service
 public class PredictionService {
     @Autowired
+    private LastPredService lastPredService;
+    @Autowired
     private TeamDao teamDao;
     @Autowired
     private PredictionDao predictionDao;
@@ -71,6 +73,8 @@ public class PredictionService {
         prediction.setVersusCount(calcResult.getVersusCount());
         prediction.setVsTeam1Wins(calcResult.getVsTeam1Wins());
         prediction.setVsTeam2Wins(calcResult.getVsTeam2Wins());
+
+        lastPredService.addPrediction(prediction);
 
         return new Prediction(prediction);
     }

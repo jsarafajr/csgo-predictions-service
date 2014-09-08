@@ -22,6 +22,15 @@
                 <value>com.lounge.stat.model</value>
             </list>
         </property>
+        <property name="hibernateProperties">
+            <props>
+                <prop key="hibernate.connection.url">jdbc:mysql://eu-cdbr-west-01.cleardb.com/heroku_6e26485e288d714
+                </prop>
+                <prop key="hibernate.connection.driver_class">com.mysql.jdbc.Driver</prop>
+                <prop key="hibernate.connection.username">b07e5a872f8c1a</prop>
+                <prop key="hibernate.connection.password">8d1cf290</prop>
+            </props>
+        </property>
     </bean>
 
     <tx:annotation-driven transaction-manager="transactionManager"/>
