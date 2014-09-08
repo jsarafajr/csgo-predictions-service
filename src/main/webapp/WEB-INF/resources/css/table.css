@@ -1,0 +1,28 @@
+#recent_custom_predictions table {
+    color: #000000;
+    width: 640px;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+#recent_custom_predictions td, th {
+    border: 1px solid transparent; /* No more visible border */
+    height: 43px;
+    transition: all 0.3s;  /* Simple transition for hover effect */
+}
+
+#recent_custom_predictions th {
+    background: #DFDFDF;  /* Darken header a bit */
+    font-weight: bold;
+}
+
+#recent_custom_predictions td {
+    background: #FAFAFA;
+    text-align: center;
+}
+
+#recent_custom_predictions tr:nth-child(odd) td { background: #F1F1F1; }
+
+#recent_custom_predictions tr:nth-child(even) td { background: #FEFEFE; }
+
+#recent_custom_predictions tr:hover td { background: #666; color: #FFF; } /* Hover cell effect! */

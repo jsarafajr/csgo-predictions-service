@@ -4,6 +4,7 @@
 $("#custom_match").ready(function() {
     getAllTeamsNames();
     customMatchEvent();
+    getLatestCustomPrediction();
 });
 
 function setTeamsToSelects(teams) {
@@ -39,6 +40,16 @@ function customMatchEvent() {
         var team1 = $("#custom_team_1").val();
         var team2 = $("#custom_team_2").val();
 
+        if (team1 == null || team2 == null) {
+            $().toastmessage('showNoticeToast', "Select teams ...");
+            return false;
+        }
+
+        if (team1 == team2) {
+            $().toastmessage('showWarningToast', "Select different teams ...");
+            return false;
+        }
+
         $.ajax({
             type: "POST",
             url: url,
@@ -54,9 +65,10 @@ function customMatchEvent() {
 
 function mapMatch(match) {
     var field = $("#custom_match_div");
+    field.html("");
     
     field.append(
-            "<div class='row match_row' style='margin-top: 2%;margin-left: 0;'>" +
+            "<div class='row match_row' style='margin-top: -2px;margin-left: 0;'>" +
                 "<div class='box style1' style='width: 100%; box-shadow: 0 0'>" +
                 "<!-- Team 1 -->" + 
                     "<div style='display: inline-block'>" +
@@ -104,7 +116,7 @@ function mapMatch(match) {
                             "<span>" + match.team2Name + ": <b>" + match.vsTeam2Wins + "</b> wins</span> <br>" +
                         "</div>" +
                         "<br>" +
-                        "<div style='text-align: center; width: 100%;display: inline-block; padding-top: 5px'>" +
+                        "<div style='text-align: center; width: 100%;display: inline-block; padding-top: 0'>" +
                         "<div class='button' id='popup_versus" + match.id + "'>see all</div>" +
                     "</div>" +
                 "</div>" +
@@ -112,4 +124,65 @@ function mapMatch(match) {
            
     )
     
+}
+
+function getLatestCustomPrediction() {
+    var url = "/match/get-custom-predictions";
+    $.ajax({
+        type: "GET",
+        url: url,
+        dataType: "json",
+        success: function(data) {
+            mapCustomPredictions(data);
+        }
+    });
+}
+
+function mapCustomPredictions(data) {
+    for (var i = 0; i < data.length; i++) {
+        var date = getStringDate(data[i]);
+
+        $("#recent_custom_predictions").append(
+            "<tr onclick='getSinglePrediction(" + data[i].id + ")'>" +
+                "<td id='team1_" + data[i].id + "'>" + data[i].team1 + "</td>" +
+                "<td>vs</td>" +
+                "<td id='team2_" + data[i].id + "'>" + data[i].team2 + "</td>" +
+                "<td>" + date + "</td>" +
+            "</tr>"
+        );
+    }
+}
+
+function getSinglePrediction(id) {
+    var team1 = $("#team1_" + id).html();
+    var team2 = $("#team2_" + id).html();
+
+    $("#custom_match_div").html("");
+
+    var url = "/match/get-single-prediction";
+
+    $.ajax({
+        type: "POST",
+        url: url,
+        data: {"team1" : team1, "team2" : team2},
+        success: function(data) {
+            mapMatch(data);
+        }
+    });
+
+    return false;
+}
+
+function getStringDate(data) {
+    if (data.day != 0) {
+        return data.day + " days ago";
+    }
+    if (data.hour != 0) {
+        return data.hour + " hours ago";
+    }
+    if (data.min != 0) {
+        return data.min + " minutes ago";
+    }
+
+    return data.sec + " seconds ago";
 }
