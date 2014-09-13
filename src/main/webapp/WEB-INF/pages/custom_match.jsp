@@ -12,6 +12,7 @@
     <script src="/resources/js/jquery.min.js"></script>
     <link rel="stylesheet" href="/resources/css/table.css">
     <script src="/resources/js/custom_match.js"></script>
+    <script src="/resources/js/jquery.toastmessage.js"></script>
 </head>
 <body>
 <div id="custom_match" >
