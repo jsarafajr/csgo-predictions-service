@@ -53,7 +53,13 @@
 
         <%-- ABOUT --%>
         <div id="about" style="display: none">
-            <h4>Work in progress...</h4>
+            <div style="text-align: center">Hello! <br> This is a web platform which function is to predict <br> Counter-Strike official matches results.<br></div>
+            <hr>
+            <div style="margin-top: 5px">
+                <div style="text-align: center;">My contacts : </div>
+                <span>Email : evgeniy.baranuk@gmail.com</span><br>
+                <span>Skype : evgeniy.baranuk</span><br>
+            </div>
         </div>
 
         <%-- REPLY --%>
