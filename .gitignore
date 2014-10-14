@@ -1,12 +1,4 @@
-*.class
-
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.ear
-
-# Idea 
+target/
+out/
 .idea/
 *.iml
