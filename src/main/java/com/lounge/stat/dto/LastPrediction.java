@@ -8,7 +8,6 @@ import java.sql.Timestamp;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
->>>>>>> origin/master
 
 /**
  * Created by jsarafajr on 03.09.14.
