@@ -4,6 +4,12 @@ import com.lounge.stat.model.LastCustomPredictionEntity;
 
 import java.util.Date;
 
+import java.sql.Timestamp;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.GregorianCalendar;
+>>>>>>> origin/master
+
 /**
  * Created by jsarafajr on 03.09.14.
  */
