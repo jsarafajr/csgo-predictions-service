@@ -4,4 +4,4 @@ out/
 .idea/
 *.iml
 
-src/main/resources/dataSource.xml 
+src/main/resources/dataSource.xml
